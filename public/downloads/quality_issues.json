@@ -1,0 +1,285 @@
+[
+  {
+    "type": "duplicate",
+    "key": [
+      "bank_rates",
+      "2026-02",
+      "Deposit"
+    ],
+    "values": [
+      6.82,
+      6.92
+    ],
+    "action": "Identical values deduplicated; conflicting values excluded from canonical series."
+  },
+  {
+    "type": "duplicate",
+    "key": [
+      "bank_rates",
+      "2026-02",
+      "Lending"
+    ],
+    "values": [
+      14.78,
+      14.78
+    ],
+    "action": "Identical values deduplicated; conflicting values excluded from canonical series."
+  },
+  {
+    "type": "duplicate",
+    "key": [
+      "bank_rates",
+      "2026-02",
+      "Overdraft"
+    ],
+    "values": [
+      13.31,
+      13.31
+    ],
+    "action": "Identical values deduplicated; conflicting values excluded from canonical series."
+  },
+  {
+    "type": "duplicate",
+    "key": [
+      "bank_rates",
+      "2026-02",
+      "Savings"
+    ],
+    "values": [
+      2.41,
+      3.17
+    ],
+    "action": "Identical values deduplicated; conflicting values excluded from canonical series."
+  },
+  {
+    "type": "duplicate",
+    "key": [
+      "inflation",
+      "2019-04",
+      "12-month inflation"
+    ],
+    "values": [
+      6.58,
+      6.58
+    ],
+    "action": "Identical values deduplicated; conflicting values excluded from canonical series."
+  },
+  {
+    "type": "duplicate",
+    "key": [
+      "inflation",
+      "2019-04",
+      "Annual average inflation"
+    ],
+    "values": [
+      4.91,
+      4.91
+    ],
+    "action": "Identical values deduplicated; conflicting values excluded from canonical series."
+  },
+  {
+    "type": "gdp_growth_vintage_mismatch",
+    "period": "2026-Q1",
+    "reported_percent": 5.3,
+    "level_implied_percent": 5.063228058655644,
+    "action": "Preserve both; sector contributions based on levels are provisional."
+  },
+  {
+    "type": "fiscal_grants_reconciliation",
+    "period": "2025-06",
+    "difference_KES_million": 956.4737000000023,
+    "action": "Use reported total grants consistently for the baseline; show sensitivity to component sum."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_world",
+    "period": "2002-02",
+    "error_KES_million": -1973.0400000000009,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_world",
+    "period": "2014-03",
+    "error_KES_million": 31294.23999999999,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_world",
+    "period": "2025-01",
+    "error_KES_million": 4627.929999999993,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_world",
+    "period": "2025-02",
+    "error_KES_million": 4148.120000000024,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_world",
+    "period": "2025-03",
+    "error_KES_million": 7436.510000000009,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_world",
+    "period": "2025-04",
+    "error_KES_million": 5043.010000000009,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_world",
+    "period": "2025-05",
+    "error_KES_million": 7098.850000000035,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_world",
+    "period": "2025-06",
+    "error_KES_million": 9429.459999999992,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_world",
+    "period": "2025-07",
+    "error_KES_million": 129.21999999997206,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_commodity",
+    "period": "1998-08",
+    "error_KES_million": -1.9699999999993452,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_commodity",
+    "period": "1998-09",
+    "error_KES_million": -170.59999999999854,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_commodity",
+    "period": "2002-01",
+    "error_KES_million": 2.0,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_commodity",
+    "period": "2002-02",
+    "error_KES_million": -1973.0400000000009,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_commodity",
+    "period": "2002-11",
+    "error_KES_million": -20.0,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_commodity",
+    "period": "2004-05",
+    "error_KES_million": -876.7299999999996,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "trade_cross_table_difference",
+    "dataset": "imports_commodity",
+    "period": "2004-07",
+    "error_KES_million": 2000.0,
+    "action": "Use trade summary for headline totals; partner growth retains its own source vintage."
+  },
+  {
+    "type": "money_growth_vintage_mismatch",
+    "period": "2026-08",
+    "metric": "Money and Quasi-money (M2)",
+    "reported_percent": 13.88787983,
+    "level_implied_percent": 14.110274219178809
+  },
+  {
+    "type": "money_growth_vintage_mismatch",
+    "period": "2026-08",
+    "metric": "M2 plus Residents' Foreign Curr. Deposits (M3)",
+    "reported_percent": 14.51492793,
+    "level_implied_percent": 14.693562405486116
+  },
+  {
+    "type": "domestic_debt_vintage_difference",
+    "period": "2025-06",
+    "difference_KES_million": 555.0,
+    "action": "Use newer 681695542 vintage; preserve both originals."
+  },
+  {
+    "type": "domestic_debt_vintage_difference",
+    "period": "2026-01",
+    "difference_KES_million": 555.0,
+    "action": "Use newer 681695542 vintage; preserve both originals."
+  },
+  {
+    "type": "domestic_debt_vintage_difference",
+    "period": "2026-02",
+    "difference_KES_million": 560.0,
+    "action": "Use newer 681695542 vintage; preserve both originals."
+  },
+  {
+    "type": "domestic_debt_vintage_difference",
+    "period": "2026-03",
+    "difference_KES_million": 560.0,
+    "action": "Use newer 681695542 vintage; preserve both originals."
+  },
+  {
+    "type": "domestic_debt_vintage_difference",
+    "period": "2026-04",
+    "difference_KES_million": 560.0,
+    "action": "Use newer 681695542 vintage; preserve both originals."
+  },
+  {
+    "type": "domestic_debt_vintage_difference",
+    "period": "2026-05",
+    "difference_KES_million": 560.0,
+    "action": "Use newer 681695542 vintage; preserve both originals."
+  },
+  {
+    "type": "domestic_debt_vintage_difference",
+    "period": "2026-06",
+    "difference_KES_million": 1277.151999999769,
+    "action": "Use newer 681695542 vintage; preserve both originals."
+  },
+  {
+    "type": "methodology",
+    "detail": "Annual real GDP levels span rebasing vintages; do not calculate a long-run real-level CAGR without linking consistent bases. Use published growth rates."
+  },
+  {
+    "type": "methodology",
+    "detail": "Revenue and expenditure are fiscal-year cumulative; June is the full fiscal year. Do not sum cumulative monthly values. Calendar-year GDP is not a fiscal-year GDP denominator."
+  },
+  {
+    "type": "methodology",
+    "detail": "Trade CIF imports and FOB exports differ from BPM6 goods measures. Oil re-export revisions limit interpretation of export growth as domestic production."
+  },
+  {
+    "type": "methodology",
+    "detail": "Expanded monetary survey includes microfinance and SACCOs. Keep separate from standard survey; FX valuation affects foreign-currency credit."
+  },
+  {
+    "type": "source_limitation",
+    "detail": "End-period FX download ends at an incomplete August 2011 row; retained raw but excluded from normalized analysis."
+  },
+  {
+    "type": "source_limitation",
+    "detail": "Annual GDP file does not explicitly state units/base in its header; KES million inferred from CBK quarterly/BOP context. Confirm metadata before publication."
+  }
+]
